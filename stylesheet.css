@@ -1,0 +1,68 @@
+/* header */
+header {
+    padding: 20px;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a,
+header p {
+    padding: 0 20px;
+    color: black;
+}
+
+/* sections */
+section {
+    background-image: url("http://cdn.wallpapersafari.com/48/27/Ai639d.jpg"); 
+}
+
+.desc {  
+    font-size: 10px;
+}
+
+figure img {
+    border: 5px solid lightgray;
+    width: 300px;
+    height: auto;
+}
+
+section ul li {
+    padding-bottom: -5px;
+}
+
+.address {
+    list-style-image: url("http://www.aajproperty.com/assets/site/images/address_icon.png");
+}
+
+.telephone {
+    list-style-image: url("http://findicons.com/files/icons/1672/mono/32/phone.png");
+}
+
+.email {
+    list-style-image: url("http://icons.iconarchive.com/icons/uiconstock/socialmedia/32/Email-icon.png");
+}
+
+/* footer */
+footer {
+    display: flex;
+    float: none;
+    vertical-align: top;
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+footer nav h5 {
+    padding: 0px 14em 0px 0px;
+}
